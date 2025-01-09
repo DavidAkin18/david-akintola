@@ -1,0 +1,67 @@
+<template>
+  <footer
+    :class="[theme === 'dark' ? 'bg-gray-900 text-black-500' : 'bg-gray-500 text-gray-900']"
+    class="p-12 px-8 md:px-16 py-28  text-center transition-colors duration-300 border-t"
+  >
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-center space-x-6 mb-4">
+        <a
+          href="https://www.linkedin.com/in/david-akintola-4800001b4/" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-linkedin-box-line"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/it_dayoakin/" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a
+          href="https://x.com/Davidakindosu" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-twitter-x-line"></i>
+        </a>
+        <a
+          href="mailto:akindayodavid22@gmail.com" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-mail-line"></i>
+        </a>
+      </div>
+      <p class="text-sm">
+        © 2025 David Akintola Akindayo · Frontend Developer 
+      </p>
+      <p class="text-xs mt-2">Designed by @dayoAkin</p>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "Footer",
+  props: {
+    theme: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
+
+<style scoped>
+/* Add any additional scoped styles if needed */
+</style>
