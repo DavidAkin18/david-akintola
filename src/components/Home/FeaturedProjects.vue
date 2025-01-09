@@ -1,6 +1,6 @@
 <template>
   <section :class="[theme === 'dark' ? 'bg-gray-800 text-gray-200' : 'bg-gray-200 text-gray-900']" 
-  class="p-12 px-8  md:px-16 py-28 lg:py-28 ">
+  class="  md:px-16 py-28 lg:py-28 ">
     <div class="max-w-7xl mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Featured Projects</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
