@@ -13,7 +13,7 @@
       <div class="flex items-center space-x-4">
         <div class="flex items-center">
           <i class="ri-map-pin-2-line text-xl mr-2"></i>
-          <span>Ahmedabad, India</span>
+          <span>Lagos, Nigeria</span>
         </div>
         <div class="flex items-center">
           <i class="ri-checkbox-circle-line text-green-500 text-xl mr-2"></i>
@@ -22,19 +22,19 @@
       </div>
       <div class="flex items-center mt-4 space-x-4">
         <a
-          href="#"
+          href="https://github.com/DavidAkin18"
           class="text-gray-400 hover:text-purple-500 text-2xl"
         >
           <i class="ri-github-fill"></i>
         </a>
         <a
-          href="#"
+          href="https://x.com/Davidakindosu"
           class="text-gray-400 hover:text-purple-500 text-2xl"
         >
-          <i class="ri-twitter-fill"></i>
+          <i class="ri-twitter-x-line"></i>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/david-akintola-4800001b4/"
           class="text-gray-400 hover:text-purple-500 text-2xl"
         >
           <i class="ri-linkedin-fill"></i>

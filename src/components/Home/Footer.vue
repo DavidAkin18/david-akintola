@@ -1,6 +1,6 @@
 <template>
   <footer
-    :class="[theme === 'dark' ? 'bg-gray-900 text-black-500' : 'bg-gray-500 text-gray-900']"
+    :class="[theme === 'dark' ? 'bg-gray-900 text-black-500' : 'bg-gray-800 text-gray-900']"
     class="p-12 px-8 md:px-16 py-28  text-center transition-colors duration-300 border-t"
   >
     <div class="max-w-7xl mx-auto px-4">
@@ -33,6 +33,15 @@
           <i class="ri-twitter-x-line"></i>
         </a>
         <a
+          href="https://github.com/DavidAkin18" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-github-fill"></i>
+        </a>
+        <a
           href="mailto:akindayodavid22@gmail.com" target="_blank"
           :class="[
             'text-2xl transition-colors duration-300',
@@ -42,10 +51,20 @@
           <i class="ri-mail-line"></i>
         </a>
       </div>
-      <p class="text-sm">
+      <p class="text-sm"
+        :class="[
+          'text-2xl transition-colors duration-300',
+          theme === 'dark' ? 'text-gray-100 ' : 'text-gray-50 '
+        ]"
+      >
         © 2025 David Akintola Akindayo · Frontend Developer 
       </p>
-      <p class="text-xs mt-2">Designed by @dayoAkin</p>
+      <p class="text-xs mt-2"
+        :class="[
+          'text-2xl transition-colors duration-300',
+          theme === 'dark' ? 'text-gray-100 ' : 'text-gray-50 '
+        ]"
+      >Designed by @dayoAkin</p>
     </div>
   </footer>
 </template>

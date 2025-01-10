@@ -3,7 +3,7 @@
   class="  md:px-16 py-28 lg:py-28 ">
     <div class="max-w-7xl mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Featured Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8">
         <!-- Project Cards -->
         <div
           v-for="(project, index) in projects"
@@ -20,7 +20,7 @@
           />
           <h3 class="text-lg font-bold mb-2">{{ project.title }}</h3>
           <p class="text-sm mb-4">{{ project.description }}</p>
-          <div class="flex justify-between">
+          <div class="flex gap-2 items-center justify-between">
             <a
               :href="project.liveLink"
               target="_blank"
@@ -35,7 +35,7 @@
               :href="project.repoLink"
               target="_blank"
               :class="[
-                'py-2 px-4 rounded transition-colors duration-300',
+                'py-2 px-4  rounded transition-colors duration-300 ',
                 theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-gray-400 hover:bg-gray-300 text-gray-900'
               ]"
             >

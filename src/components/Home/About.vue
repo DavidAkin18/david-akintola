@@ -28,21 +28,16 @@
           About me
         </span>
       </div>
-      <h2 class="text-3xl font-bold mb-5">Curious about me? Here you have it:</h2>
+      <h2 class="text-3xl font-bold mb-5">Get to know me:</h2>
       <p class="text-lg mb-4">
-        I'm a passionate frontend developer specializing in Vue.js, React.js and creating fast, 
-        responsive, and visually appealing digital experiences.
-        With a keen eye for design and a focus on delivering accessible solutions, I love building 
-        modern web applications that users enjoy.
+        I’m a frontend developer with a passion for crafting dynamic, responsive, and user-friendly digital experiences. My expertise lies in modern web technologies such as Vue.js, React.js, and TailwindCSS, enabling me to build solutions that are both visually engaging and performance-driven.
       </p>
       <p class="text-lg mb-4">
-        I began my journey as a developer in 2020 and have continued to grow with new technologies 
-        like Vue.js, TailwindCSS, and more. When
-        I'm not coding, you can find me exploring new ideas or sharing insights with the community.
+        Since starting my development journey in 2020, I have continuously honed my skills, staying at the forefront of emerging tools and technologies. Beyond coding, I enjoy exploring innovative ideas and actively engaging with the tech community to share knowledge and insights.
       </p>
       <ul class="text-lg list-disc pl-5">
-        <li>Full-time freelancer</li>
-        <li>Avid learner</li>
+        <li>Dedicated full-time/freelancer</li>
+        <li>Lifelong learner with a passion for growth</li>
       </ul>
     </div>
   </section>
