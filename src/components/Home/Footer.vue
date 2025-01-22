@@ -24,6 +24,16 @@
           <i class="ri-instagram-line"></i>
         </a>
         <a
+          href="https://wa.me/qr/R7XJHRWA4GRYC1" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-whatsapp-fill"></i>
+        </a>
+        
+        <a
           href="https://x.com/Davidakindosu" target="_blank"
           :class="[
             'text-2xl transition-colors duration-300',
@@ -50,6 +60,15 @@
         >
           <i class="ri-mail-line"></i>
         </a>
+        <a
+          href="tel:+234 7033576458" target="_blank"
+          :class="[
+            'text-2xl transition-colors duration-300',
+            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
+          ]"
+        >
+          <i class="ri-phone-fill"></i>070 3357 6458
+        </a>
       </div>
       <p class="text-sm"
         :class="[
@@ -57,14 +76,14 @@
           theme === 'dark' ? 'text-gray-100 ' : 'text-gray-50 '
         ]"
       >
-        © 2025 David Akintola Akindayo · Frontend Developer 
+        © 2025 David Akindayo Akintola · Frontend Developer 
       </p>
       <p class="text-xs mt-2"
         :class="[
           'text-2xl transition-colors duration-300',
           theme === 'dark' ? 'text-gray-100 ' : 'text-gray-50 '
         ]"
-      >Designed by @dayoAkin</p>
+      >Designed by @dayoAkin </p>
     </div>
   </footer>
 </template>

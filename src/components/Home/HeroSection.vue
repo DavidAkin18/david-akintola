@@ -39,6 +39,12 @@
         >
           <i class="ri-linkedin-fill"></i>
         </a>
+        <a
+          href="tel:+234 7033576458" target="_blank"
+          class="text-gray-400 hover:text-purple-500 text-2xl"
+        >
+          <i class="ri-phone-fill"></i>
+        </a>
       </div>
     </div>
     <div class="w-full lg:w-1/2 flex justify-center">
