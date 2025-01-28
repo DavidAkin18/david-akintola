@@ -53,8 +53,15 @@ import ecommerce from '@/assets/images/ecommerce.png'
 import multistep from '@/assets/images/multistep_form.png'
 import restorant from '@/assets/images/restorant.png'
 import socialMedia from '@/assets/images/socialmedia.png'
+import rock from '@/assets/images/rock.png'
+import weather from '@/assets/images/weather.png'
+import tic from '@/assets/images/x&o.png'
 import todo from '@/assets/images/todo.png'
 import toro from '@/assets/images/toro.png'
+import age from '@/assets/images/age.png'
+import fraser from '@/assets/images/fraser.png'
+import calculator from '@/assets/images/calculator.png'
+import multiStep from '@/assets/images/multisetp.png'
 export default {
   name: "FeaturedProjects",
   props: {
@@ -107,6 +114,55 @@ export default {
           image: toro,
           liveLink: "https://house-of-tora.vercel.app/#/",
           repoLink: "https://github.com/DavidAkin18/house_of_tora",
+        },
+        {
+          title: "Project Title 7",
+          description: "I developed a responsive Tic Tac Toe game using HTML, CSS, and JavaScript, featuring dynamic gameplay, intuitive design, and seamless user experience.",
+          image: tic,
+          liveLink: "https://tic-tac-toe-three-henna.vercel.app/",
+          repoLink: "https://github.com/DavidAkin18/tic-tac-toe",
+        },
+        {
+          title: "Project Title 8",
+          description: "I created a dynamic Rock-Paper-Scissors game using HTML, CSS, and JavaScript, featuring interactive gameplay, real-time result display, and a user-friendly interface.",
+          image: rock,
+          liveLink: "https://rock-paper-scissors-v35j.vercel.app/computer.html",
+          repoLink: "https://github.com/DavidAkin18/rock-paper-scissors",
+        },
+        {
+          title: "Project Title 9",
+          description: "I built a weather application using HTML, CSS, and JavaScript, incorporating an API to fetch real-time weather data, display conditions, and ensure user-friendly interaction.",
+          image: weather,
+          liveLink: "https://weather-topaz-sigma.vercel.app/",
+          repoLink: "https://github.com/DavidAkin18/weather_API",
+        },
+        {
+          title: "Project Title 10",
+          description: "An interactive Age Calculator using HTML, CSS, and JavaScript, allowing users to input their birthdate and calculate age in years, months, and days.",
+          image: age,
+          liveLink: "https://age-calculator-giw4.vercel.app/",
+          repoLink: "https://github.com/DavidAkin18/age-calculator"
+        },
+        {
+          title: "Project Title 11",
+          description: "I created a multi-step form with HTML, CSS, and JavaScript, featuring checkboxes, radio buttons, text inputs, email fields, and a submit button for seamless user interaction.",
+          image: multiStep,
+          liveLink: "https://multi-step-form-livid-psi.vercel.app/",
+          repoLink: "https://github.com/DavidAkin18/multi-step-form",
+        },
+        {
+          title: "Project Title 12",
+          description: "A calculator built using HTML, CSS, and JavaScript that supports addition, subtraction, multiplication, division, and decimal calculations for accuracy.",
+          image: calculator,
+          liveLink: "https://calculator-as1q.vercel.app/",
+          repoLink: "https://github.com/DavidAkin18?tab=repositories",
+        },
+        {
+          title: "Project Title 13",
+          description: "Fraser Consulting offers expert solutions in international consulting, contract facilitation, project management, and more. Serving industries like Oil & Gas, Aviation, and Finance with exceptional expertise.",
+          image: fraser,
+          liveLink: "https://fraser-consultance.vercel.app/#/",
+          repoLink: "https://github.com/DavidAkin18/fraserConsultance",
         },
       ],
     };
