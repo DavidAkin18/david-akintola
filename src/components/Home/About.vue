@@ -30,7 +30,7 @@
       </div>
       <h2 class="text-3xl font-bold mb-5">Get to know me:</h2>
       <p class="text-lg mb-4">
-        I’m a frontend developer with a passion for crafting dynamic, responsive, and user-friendly digital experiences. My expertise lies in modern web technologies such as Vue.js, React.js, and TailwindCSS, enabling me to build solutions that are both visually engaging and performance-driven.
+        I’m a frontend developer with a passion for crafting dynamic, responsive, and user-friendly digital experiences. My expertise lies in modern web technologies such as Vue.js, React.js, Typescript, Github, CSS, HTML5, restful API and TailwindCSS, enabling me to build solutions that are both visually engaging and performance-driven.
       </p>
       <p class="text-lg mb-4">
         Since starting my development journey in 2020, I have continuously honed my skills, staying at the forefront of emerging tools and technologies. Beyond coding, I enjoy exploring innovative ideas and actively engaging with the tech community to share knowledge and insights.

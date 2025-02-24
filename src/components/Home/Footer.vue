@@ -6,7 +6,7 @@
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex justify-center space-x-6 mb-4">
         <a
-          href="https://www.linkedin.com/in/david-akintola-4800001b4/" target="_blank"
+          href="https://www.linkedin.com/in/david-akintola-4800001b4/" target="_blank" title="Linkedin"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -15,7 +15,7 @@
           <i class="ri-linkedin-box-line"></i>
         </a>
         <a
-          href="https://www.instagram.com/it_dayoakin/" target="_blank"
+          href="https://www.instagram.com/it_dayoakin/" target="_blank" title="Instagram"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -24,7 +24,7 @@
           <i class="ri-instagram-line"></i>
         </a>
         <a
-          href="https://wa.me/qr/R7XJHRWA4GRYC1" target="_blank"
+          href="https://wa.me/qr/R7XJHRWA4GRYC1" target="_blank" title="Whatsapp"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -34,7 +34,7 @@
         </a>
         
         <a
-          href="https://x.com/Davidakindosu" target="_blank"
+          href="https://x.com/Davidakindosu" target="_blank" title="X"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -43,7 +43,7 @@
           <i class="ri-twitter-x-line"></i>
         </a>
         <a
-          href="https://github.com/DavidAkin18" target="_blank"
+          href="https://github.com/DavidAkin18" target="_blank" title="Github"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -52,7 +52,7 @@
           <i class="ri-github-fill"></i>
         </a>
         <a
-          href="mailto:akindayodavid22@gmail.com" target="_blank"
+          href="mailto:akindayodavid22@gmail.com" target="_blank" title="Email"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
@@ -61,13 +61,13 @@
           <i class="ri-mail-line"></i>
         </a>
         <a
-          href="tel:+234 7033576458" target="_blank"
+          href="tel:+234 7033576458" target="_blank" title="Phone"
           :class="[
             'text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
-          <i class="ri-phone-fill"></i>070 3357 6458
+          <i class="ri-phone-fill"></i>
         </a>
       </div>
       <p class="text-sm"
