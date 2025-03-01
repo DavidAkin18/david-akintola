@@ -8,25 +8,16 @@
         <a
           href="https://www.linkedin.com/in/david-akintola-4800001b4/" target="_blank" title="Linkedin"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
           <i class="ri-linkedin-box-line"></i>
         </a>
         <a
-          href="https://www.instagram.com/it_dayoakin/" target="_blank" title="Instagram"
-          :class="[
-            'text-2xl transition-colors duration-300',
-            theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
-          ]"
-        >
-          <i class="ri-instagram-line"></i>
-        </a>
-        <a
           href="https://wa.me/qr/R7XJHRWA4GRYC1" target="_blank" title="Whatsapp"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
@@ -36,7 +27,7 @@
         <a
           href="https://x.com/Davidakindosu" target="_blank" title="X"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
@@ -45,7 +36,7 @@
         <a
           href="https://github.com/DavidAkin18" target="_blank" title="Github"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
@@ -54,7 +45,7 @@
         <a
           href="mailto:akindayodavid22@gmail.com" target="_blank" title="Email"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >
@@ -63,7 +54,7 @@
         <a
           href="tel:+234 7033576458" target="_blank" title="Phone"
           :class="[
-            'text-2xl transition-colors duration-300',
+            'text-lg md:text-2xl transition-colors duration-300',
             theme === 'dark' ? 'text-gray-400 hover:text-purple-500' : 'text-gray-50 hover:text-purple-600'
           ]"
         >

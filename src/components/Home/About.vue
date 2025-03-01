@@ -11,7 +11,7 @@
       <img
         src="../../assets/hero1.jpeg"
         alt="About Me"
-        class="object-cover w-80 h-80 rounded-lg shadow-lg"
+        class="object-contain w-90 h-90 rounded-lg shadow-lg"
       />
     </div>
 
